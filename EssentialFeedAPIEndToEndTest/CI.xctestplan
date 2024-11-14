@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "0D2ED363-A02F-4C1F-9BA3-EA9614926FC2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:EssentialFeed.xcodeproj",
+        "identifier" : "AD3A180F2CDC92F900E4C96E",
+        "name" : "EssentialFeedAPIEndToEndTest"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:EssentialFeed.xcodeproj",
+        "identifier" : "AD88A93C2CCBD26000667458",
+        "name" : "EssentialFeedTests"
+      }
+    },
+    {
+      "selectedTests" : [
+        "EssentialFeedCacheIntegrationTests\/test_load_deliversItemsSavedOnaSeparateInstance()",
+        "EssentialFeedCacheIntegrationTests\/test_load_deliversNoItemsOnEmptyCache()",
+        "EssentialFeedCacheIntegrationTests\/test_save_overridesItemsSavedOnASeparateInstance()"
+      ],
+      "target" : {
+        "containerPath" : "container:EssentialFeed.xcodeproj",
+        "identifier" : "ADBB04D72CE511B60036FCA8",
+        "name" : "EssentialFeedCacheIntegrationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
